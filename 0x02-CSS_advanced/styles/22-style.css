@@ -43,7 +43,7 @@ a:active {
 }
 .section-footer {
   padding: var(--section-footer-padding);
-  align-items: var(--section-footer-align);
+  text-align: var(--section-footer-align);
 }
 .section-title {
   font-family: var(--font-family-title);
@@ -117,7 +117,7 @@ ul.row {
   text-align: right;
 }
 .row::after {
-  content: none;
+  content: "";
   display: table;
   clear: both;
 }

@@ -58,7 +58,7 @@ button:hover {
 }
 .section-footer {
   padding: var(--section-footer-padding);
-  align-items: var(--section-footer-align);
+  text-align: var(--section-footer-align);
 }
 .section-title {
   font-family: var(--font-family-title);
@@ -108,7 +108,7 @@ nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 nav .nav-link::before {
-  content: none;
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -150,7 +150,7 @@ ul.row {
   text-align: right;
 }
 .row::after {
-  content: none;
+  content: "";
   display: table;
   clear: both;
 }
@@ -238,7 +238,7 @@ ul.row {
   right: 0;
   left: 0;
   bottom: 0;
-  content: none;
+  content: "";
 }
 .card-work:hover .card-title {
   opacity: 1;
