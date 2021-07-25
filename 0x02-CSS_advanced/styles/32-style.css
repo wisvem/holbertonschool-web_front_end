@@ -100,14 +100,14 @@ a:active {
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
 }
-nav .nav-link {
+.nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
-nav .nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
-nav .nav-link::before {
+.nav .nav-link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -115,9 +115,9 @@ nav .nav-link::before {
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
-  transition: var(–-transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
-nav .nav-item:hover .nav-link::before {
+.nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }
@@ -203,7 +203,7 @@ ul.row {
   position: relative;
   overflow: hidden;
 }
-.card-work .card-image image {
+.card-work .card-image img {
   height: 30rem;
   width: 100%;
   object-fit: cover;
@@ -268,7 +268,7 @@ header {
   position: relative;
 }
 .card-testimonial .card-quote::before {
-  content: \201c;
+  content: "\201c";
   position: absolute;
   top: -4.5rem;
   left: -1rem;
