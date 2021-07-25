@@ -36,7 +36,7 @@ button {
 button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
-  background-color: var(--button-hover-background);
+  background: var(--button-hover-background);
   transition-duration: var(--transition-duration);
   transition-property: color, background-color;
 }
@@ -50,7 +50,7 @@ section {
   padding: var(--section-padding);
 }
 .section-header {
-  align-items: var(--section-header-align);
+  text-align: var(--section-header-align);
   padding: var(--section-header-padding);
 }
 .section-body {
@@ -136,6 +136,11 @@ ul.row {
   /* float: left;
   padding: 0.5rem;*/
 }
+
+footer {
+  padding: var(--footer-padding);
+}
+
 .footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
@@ -484,7 +489,3 @@ template {
   display: none;
 }
 /*# sourceMappingURL=normalize.min.css.map */
-
-footer {
-  padding: var(--footer-padding);
-}
