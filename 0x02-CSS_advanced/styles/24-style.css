@@ -113,7 +113,7 @@ ul.row {
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
-footer ul {
+.footer ul {
   text-align: right;
 }
 .row::after {
@@ -341,6 +341,6 @@ template {
 }
 /*# sourceMappingURL=normalize.min.css.map */
 
-footer {
+.footer {
   padding: var(--footer-padding);
 }

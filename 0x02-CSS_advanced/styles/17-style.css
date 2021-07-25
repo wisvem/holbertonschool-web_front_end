@@ -248,6 +248,6 @@ template {
 }
 /*# sourceMappingURL=normalize.min.css.map */
 
-footer {
+.footer {
   padding: var(--footer-padding);
 }
