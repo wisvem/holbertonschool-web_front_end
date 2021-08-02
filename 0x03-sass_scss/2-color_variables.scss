@@ -1,0 +1,14 @@
+/* My style */
+$color: #3d3d3d;
+$bgcolor: #6d6d6d;
+body {
+  color: $color;
+  background-color: $bgcolor;
+}
+p {
+  color: $color;
+}
+
+h2 {
+  background-color: $bgcolor;
+}
