@@ -1,0 +1,19 @@
+/* My style */
+$font_size: 20px;
+h1 {
+  font-size: $font_size;
+
+  @for $i from 3 through 1 {
+    $font_size: ($font_size)-2;
+    $screen_size: 320px;
+    $screen_size: $screen_size * $i;
+    @media screen and (max-width: $screen_size) {
+      font-size: $font_size;
+      @if $screen_size == 320px {
+        &.small {
+          color: #1d1d1d;
+        }
+      }
+    }
+  }
+}
