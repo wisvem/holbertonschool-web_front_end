@@ -408,7 +408,7 @@ ul.row {
   padding: var(--header-padding);
   position: relative;
   z-index: 3;
-background: transparent;
+  background: transparent;
 }
 
 /* Footer
