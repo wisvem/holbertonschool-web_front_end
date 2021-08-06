@@ -1,59 +1,65 @@
-html {
-  height: 100vh;
-}
-
-body {
-  height: 50%;
-  display: flex;
-  align-items: center;
-}
-
 .container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  color: white;
   align-items: baseline;
-  height: 90%;
-  width: 100%;
 }
-
-.container .box {
+.box1 {
   display: flex;
+  background-color: #1dcd6e;
+  font-size: var(--size3);
   justify-content: center;
   align-items: center;
-  color: white;
+  height: var(--height3);
+  width: var(--width3);
+  align-items: center;
 }
-
-.box.box1,
-.box.box5 {
-  font-size: 2vw;
-  width: 7%;
-  height: 18%;
+.box2 {
+  display: flex;
+  background-color: #2d97e1;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--size2);
+  height: var(--height2);
+  width: var(--width2);
 }
-
-.box.box2,
-.box.box4 {
-  font-size: 4vw;
-  width: 12%;
-  height: 28%;
+.box3 {
+  display: flex;
+  background-color: #344a61;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--size1);
+  height: var(--height1);
+  width: var(--width1);
 }
-
-.box.box1 {
-  background-color: #1fcd6c;
-}
-.box.box2 {
-  background-color: #267cb9;
-}
-.box.box3 {
-  background-color: #3a4b5c;
-  width: 22%;
-  height: 48%;
-  font-size: 8vw;
-}
-
-.box.box4 {
+.box4 {
+  display: flex;
   background-color: #9d55b9;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--size2);
+  height: var(--height2);
+  width: var(--width2);
 }
-.box.box5 {
+.box5 {
+  display: flex;
   background-color: #ea7d04;
+  font-size: var(--size3);
+  justify-content: center;
+  align-items: center;
+  height: var(--height3);
+  width: var(--width3);
+  align-items: center;
+}
+
+:root {
+  --size1: 100px;
+  --size2: 50px;
+  --size3: 20px;
+  --width1: 16.5rem;
+  --height1: 10rem;
+  --width2: 10rem;
+  --height2: 6rem;
+  --width3: 5rem;
+  --height3: 4rem;
 }
