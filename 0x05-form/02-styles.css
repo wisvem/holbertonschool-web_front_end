@@ -109,11 +109,7 @@ button:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 fieldset {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  border-style: none;
-  padding: 0 0 2rem;
+  padding: 0.35em 0.75em 0.625em;
 }
 legend {
   box-sizing: border-box;
@@ -822,4 +818,12 @@ form {
   flex-direction: column;
   padding: 1rem 0;
   margin: 0;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: none;
+  padding: 0 0 2rem;
 }
