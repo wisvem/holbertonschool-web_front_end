@@ -1,9 +1,9 @@
-function welcomeMessage(fullName) {
-  return function closure(fullname) {
-    alert(`Welcome ${fullName}`);
-  };
+function welcomeMessage(fullName){
+  alert("Welcome " + fullName);
 }
-
-const guillaume = welcomeMessage("Guillaume");
-const alex = welcomeMessage("Alex");
-const fred = welcomeMessage("Fred");
+var guillaume = welcomeMessage("Guillaume");
+var alex = welcomeMessage("Alex");
+var fred = welcomeMessage("Fred");
+guillaume();
+alex();
+fred();
